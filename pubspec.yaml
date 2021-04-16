@@ -1,0 +1,33 @@
+name: destini_challenge_starting
+description: A new Flutter application.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.0.0-dev.68.0 <3.0.0"
+
+dependencies:
+  bordered_text: ^1.0.1
+  google_fonts: ^0.3.8
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^0.1.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - images/
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: fonts/Pacifico-Regular.ttf
+    - family: PT Mono
+      fonts:
+        - asset: fonts/PTMono-Regular.ttf
+
+
